@@ -190,7 +190,7 @@ This software is released under the MIT License. If you use it in your research,
 ```bibtex
 @misc{brandoit2025fast,
   title        = {Fast reconstruction of degenerate populations of conductance-based neuron models from spike times},
-  author       = {Brandoit, Julien and others},
+  author       = {Brandoit, Julien and Ernst, Damien and Drion, Guillaume and Fyon, Arthur},
   year         = {2025},
   eprint       = {2509.12783},
   archivePrefix = {arXiv},
@@ -203,7 +203,7 @@ If you use a **pre-generated dataset**, please also cite the data record:
 
 ```bibtex
 @dataset{brandoit2025dataset,
-  author    = {Brandoit, Julien and Ernst, Damien and Drion, Guillaume and Fyon, Amaury},
+  author    = {Brandoit, Julien and Ernst, Damien and Drion, Guillaume and Fyon, Arthur},
   title     = {Spike-Train Datasets from Conductance-Based Neuron Models},
   year      = {2025},
   publisher = {Zenodo},
