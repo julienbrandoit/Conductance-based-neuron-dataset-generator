@@ -1,0 +1,6 @@
+*.log
+*.out
+*.err
+logs/
+**/__pycache__/**
+*.csv
