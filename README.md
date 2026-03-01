@@ -211,8 +211,8 @@ If you use a **pre-generated dataset**, please also cite the data record:
   title     = {Spike-Train Datasets from Conductance-Based Neuron Models},
   year      = {2025},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.16912161},
-  url       = {https://doi.org/10.5281/zenodo.16912161}
+  doi       = {10.5281/zenodo.16912160},
+  url       = {https://doi.org/10.5281/zenodo.16912160}
 }
 ```
 

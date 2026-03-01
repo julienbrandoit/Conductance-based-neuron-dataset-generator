@@ -2,7 +2,7 @@
 
 All datasets listed here are available on Zenodo:
 
-> Brandoit, J., Ernst, D., Drion, G., & Fyon, A. (2025). *Spike-Train Datasets from Conductance-Based Neuron Models* [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.16912161](https://doi.org/10.5281/zenodo.16912161)
+> Brandoit, J., Ernst, D., Drion, G., & Fyon, A. (2025). *Spike-Train Datasets from Conductance-Based Neuron Models* [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.16912160](https://doi.org/10.5281/zenodo.16912160)
 
 ---
 
