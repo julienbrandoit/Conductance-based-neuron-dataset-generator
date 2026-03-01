@@ -4,3 +4,4 @@
 logs/
 **/__pycache__/**
 *.csv
+data/hidden_data
