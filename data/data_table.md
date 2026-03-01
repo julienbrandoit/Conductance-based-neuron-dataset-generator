@@ -94,7 +94,7 @@ Same as `dics_da_nonoise` - degenerate DA neuron populations from the DICs frame
 | **Simulation window** | 6 000 ms total - 3 000 ms transient discarded → 3 000 ms recorded |
 | **Files** | `stg_dataset_train.csv`, `stg_dataset_val.csv` |
 
-Conductances are sampled independently using a Gamma distribution whose mean and variance match those of the corresponding uniform range (same support, but more mass near the centre). Unlike the DICs-based datasets, there is no degeneracy structure - channels are sampled independently with no constraint linking their values - this is a broad, unconstrained exploration of the conductance space. Noise is injected during simulation. Train and validation splits are provided.
+Conductances are sampled independently using a Gamma distribution whose mean and variance match those of the corresponding uniform range. Unlike the DICs-based datasets, there is no degeneracy structure - channels are sampled independently with no constraint linking their values - this is a broad, unconstrained exploration of the conductance space. Noise is injected during simulation. Train and validation splits are provided.
 
 ---
 
