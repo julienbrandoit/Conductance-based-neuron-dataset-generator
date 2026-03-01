@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="data/icon.png" width="120">
+</p>
+
 # Conductance-based neuron dataset generator
 
 Python toolkit for simulating large populations of conductance-based neuron models and collecting their **spike trains**. Two neuron models are included: the STG (stomatogastric ganglion) neuron and the DA (midbrain dopamine) neuron. Simulations support multiprocessing and optional noisy current injection.
