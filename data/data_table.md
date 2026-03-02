@@ -98,6 +98,22 @@ Conductances are sampled independently using a Gamma distribution whose mean and
 
 ---
 
+### 6. `mc_uniform_stg_noise_3`
+
+| Property | Value |
+|----------|-------|
+| **Neuron model** | STG (Liu et al., 1998) |
+| **Conductance sampling** | Monte Carlo - Uniform distribution |
+| **Noise injection** | Band-limited Gaussian, sigma = 3.0 uA/cm2, cutoff 1 000 Hz |
+| **Ion channels** | Na, Kd, CaT, CaS, KCa, A, H, leak |
+| **Conductance ranges (mS/cm2)** | g_Na in [0, 8000], g_Kd in [0, 350], g_CaT in [0, 12], g_CaS in [0, 50], g_KCa in [0, 250], g_A in [0, 600], g_H in [0, 0.7], g_leak in [0, 0.02] |
+| **Simulation window** | 6 000 ms total - 3 000 ms transient discarded → 3 000 ms recorded |
+| **Files** | `stg_dataset_train.csv` (631 975 rows), `stg_dataset_val.csv` (111 525 rows) |
+
+Conductances are sampled independently and uniformly over biologically plausible ranges, with no degeneracy structure between channels. Compared to `mc_gamma_stg_noise_5`, this dataset uses a strictly uniform distribution (flat probability over the full range rather than Gamma-weighted) and a lower noise level (sigma = 3 uA/cm2 instead of 5). Train and validation splits are provided.
+
+---
+
 ## Summary table
 
 | Dataset folder | Model | Sampling | Noise (sigma) | Splits available | Total rows |
@@ -107,3 +123,4 @@ Conductances are sampled independently using a Gamma distribution whose mean and
 | `dics_da_nonoise` | DA | DICs | - | train / val | 1 682 276 |
 | `dics_da_noise_5` | DA | DICs | 5 uA/cm2 | train / val | 279 780 |
 | `mc_gamma_stg_noise_5` | STG | Monte Carlo (Gamma) | 5 uA/cm2 | train / val | 994 500 |
+| `mc_uniform_stg_noise_3` | STG | Monte Carlo (Uniform) | 3 uA/cm2 | train / val | 743 500 |

@@ -181,7 +181,7 @@ If you use one of the pre-generated datasets in your work, please cite the data 
 | Version | Release date | Neuron models | Sampling strategy | Notes |
 |---------|-------------|---------------|-------------------|-------|
 | v1.0 | 2025 | STG (Liu et al.), DA (Qian et al.) | Monte Carlo & DICs | Early release, poorly documented - superseded by v2.0 |
-| v2.0 | 2025 | STG (Liu et al.), DA (Qian et al.) | Monte Carlo & DICs | Current release - 5 well-documented datasets |
+| v2.0 | 2025 | STG (Liu et al.), DA (Qian et al.) | Monte Carlo & DICs | Current release - 6 datasets |
 
 > New dataset releases will be listed here as new versions become available on Zenodo.
 
