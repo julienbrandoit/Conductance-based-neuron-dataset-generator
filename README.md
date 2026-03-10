@@ -172,7 +172,7 @@ python ../split_dataset.py --input_file dataset.csv
 
 Ready-to-use spike-train datasets produced with this toolkit are publicly available on Zenodo:
 
-> Brandoit, J., Ernst, D., Drion, G., & Fyon, A. (2025). *Spike-Train Datasets from Conductance-Based Neuron Models* [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.16912161](https://doi.org/10.5281/zenodo.16912161)
+> Brandoit, J., Ernst, D., Drion, G., & Fyon, A. (2025). *Spike-Train Datasets from Conductance-Based Neuron Models* [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.16912160](https://doi.org/10.5281/zenodo.16912160)
 
 If you use one of the pre-generated datasets in your work, please cite the data record above.
 
